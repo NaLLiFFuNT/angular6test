@@ -1,0 +1,6 @@
+version: '2'
+services:
+  angular6test:
+    build: .
+    ports:
+      - "4200:4200"
