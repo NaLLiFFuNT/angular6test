@@ -8,6 +8,8 @@ jobs:
     docker:
       # specify the version you desire here
     - image: circleci/node:8.11.3
+    - image: circleci/buildpack-deps:17.10-browsers
+
 
     # Specify service dependencies here if necessary
     # CircleCI maintains a library of pre-built images
