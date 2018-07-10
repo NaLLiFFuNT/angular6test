@@ -1,0 +1,5 @@
+node_modules
+test/actual
+
+# dockerignore
+test/fixtures
